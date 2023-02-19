@@ -11,7 +11,7 @@ app.use(cors());
 app.use(morgan('tiny'));
 app.disable('x-powered-by');
 
-const port = 8000;
+const port = 8000
 
 // HTTP GET Request
 app.get('/', (req, res) => {
